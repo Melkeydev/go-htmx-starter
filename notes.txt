@@ -1,0 +1,17 @@
+Notes:
+    - To use Tailwind in dev we can just use the CDN 
+    - Everything in HTMX is made with .html files
+        - Need to find the best way to structure and render with it
+    - In the .html file there is an id with counter and a 'state' value:
+        - "{{.CounterValue}} 
+        - template.New:
+            - Allocates a new HTML template with the given name
+        - template.Must:
+            - Intended to be used for variable initialization 
+        - templaet.Must(template.New("counter").Parse(tmpString)):
+            this creates a piece of HTML from tmpString and assigns it to the id of 
+            "counter"
+        - template.ExecuteTemplate(w, "counter", data):
+            data will contain the variable in the {{.CounterValue}} that is referenced
+            in the .html
+
