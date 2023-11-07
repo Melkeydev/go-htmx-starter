@@ -41,7 +41,11 @@ func (s *Server) renderHomePage(w http.ResponseWriter, r *http.Request) {
 		},
 		{
 			Title:    "monkeydew",
-			Director: "smith",
+			Director: "smih",
+		},
+		{
+			Title:    "monkeydew",
+			Director: "smih",
 		},
 	}
 
