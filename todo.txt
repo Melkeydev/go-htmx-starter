@@ -1,0 +1,7 @@
+- set up chi server - done
+- set up htmx - done
+- set up air - 1/2 done
+- set up Tailwind
+- set up postgres
+- set up caching
+- build something fucking awesome
